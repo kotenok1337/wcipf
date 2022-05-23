@@ -4,20 +4,27 @@
 This script can find more than 2000 opened webcam IPs!
 
 ## Initialization
-First, you need to install Python.
+1. Install Python & git
 For Termux:
 ```
 pkg install python
+apt install git
 ```
 
-Then, install Python modules using pip.
+2. Install Python modules using pip.
 ```
 pip install requests typer art blessed
 ```
 
-Finnaly, run it!
+## Running
+1. Clone this repository
 ```
-python wcipf.py <amount>
+git clone https://github.com/kotenok1337/wcipf.git
 ```
 
+2. Run it!
+```
+cd wcipf
+python wcipf <amount>
+```
 Example: ```python wcipf.py 200```
